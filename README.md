@@ -10,7 +10,6 @@ This is a single-page web app with a Pinterest-style display of recent public ph
 4. Download all pinned photos on "Pinned" page with one click
 3. Lazy load photos
 
-
 ![example](/image/example.png)
 
 ### Install ###

@@ -17,12 +17,13 @@
     	<div class="page-header">
     		<div class="row">
     			<div class="col-xs-12 col-md-8">
-    				<h1 class="text-capitalize">Flickr Photo Gallery - <em>{{theme}}</em> Theme</h1>
+    			  <h1 class="text-capitalize">Flickr Photo Gallery - <em>{{theme}}</em> Theme</h1>
+			  <h4>Click the red pin icon in the bottom right corner to pin a photo!</h3>
     			</div>
     			<div class="col-xs-12 col-md-4">
     				<div class="btn-group pin-button-group">
-    					<label ng-click="togglePinned('all')" class="btn btn-default pin-button" ng-class="{'btn-danger': pinFilter === 'all'}">All</label>
-    					<label ng-click="togglePinned('pinned')" class="btn btn-default pin-button" ng-class="{'btn-danger': pinFilter === 'pinned'}">Pinned</label>
+    					<label ng-click="togglePinned('all')" class="btn btn-default pin-button" ng-class="{'btn-danger': pinFilter === 'all'}">All Photos</label>
+    					<label ng-click="togglePinned('pinned')" class="btn btn-default pin-button" ng-class="{'btn-danger': pinFilter === 'pinned'}">Pinned Photos</label>
     				</div>
     			</div>
     		</div> 
